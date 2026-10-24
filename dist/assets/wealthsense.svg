@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1265" height="712" viewBox="0 0 1265 712" role="img" aria-labelledby="title desc">
+  <title id="title">WealthSense portfolio intelligence preview</title>
+  <desc id="desc">An illustrative newspaper-style interface showing market research, portfolio tracking, and virtual paper trading.</desc>
+  <defs>
+    <pattern id="grain" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".7" fill="#615948" opacity=".16"/><circle cx="18" cy="20" r=".6" fill="#615948" opacity=".12"/></pattern>
+    <linearGradient id="chart" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#4d7459"/><stop offset=".55" stop-color="#a7bb82"/><stop offset="1" stop-color="#d2b16c"/></linearGradient>
+    <linearGradient id="wash" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#78946f" stop-opacity=".4"/><stop offset="1" stop-color="#78946f" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1265" height="712" fill="#eee8d9"/>
+  <rect width="1265" height="712" fill="url(#grain)"/>
+  <rect x="28" y="24" width="1209" height="664" fill="none" stroke="#343e38" stroke-width="2"/>
+  <path d="M53 67H1212M53 70H1212M53 190H1212M53 193H1212M53 653H1212" stroke="#343e38" stroke-width="1.5"/>
+  <text x="54" y="55" font-family="Georgia,serif" font-size="13" font-weight="700" letter-spacing="2.6" fill="#455149">MARKETS  /  RESEARCH  /  VIRTUAL TRADES</text>
+  <text x="1210" y="55" text-anchor="end" font-family="Georgia,serif" font-size="13" letter-spacing="2" fill="#455149">THE INDEPENDENT EDITION  •  2026</text>
+  <text x="632" y="144" text-anchor="middle" font-family="Georgia,serif" font-size="77" font-weight="700" letter-spacing="-4" fill="#1f2b28">WEALTH<tspan font-style="italic" font-weight="400" fill="#47674d"> sense</tspan></text>
+  <text x="632" y="171" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-weight="700" letter-spacing="5" fill="#59655a">PORTFOLIO INTELLIGENCE</text>
+  <text x="54" y="219" font-family="Georgia,serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#35483c">DAILY SIGNALS</text>
+  <text x="262" y="219" font-family="Georgia,serif" font-size="12" letter-spacing="1.5" fill="#6b7168">WORLD MARKET PULSE</text>
+  <text x="542" y="219" font-family="Georgia,serif" font-size="12" letter-spacing="1.5" fill="#6b7168">PRIVATE PORTFOLIO</text>
+  <text x="834" y="219" font-family="Georgia,serif" font-size="12" letter-spacing="1.5" fill="#6b7168">PAPER TRADING</text>
+  <rect x="53" y="234" width="746" height="392" fill="#24332e"/>
+  <rect x="54" y="234" width="4" height="392" fill="#b7a26c"/>
+  <text x="83" y="275" font-family="Georgia,serif" font-size="15" font-weight="700" letter-spacing="2.3" fill="#e7e4d9">WORLD MARKET PULSE</text>
+  <text x="83" y="302" font-family="Georgia,serif" font-size="12" letter-spacing="1.7" fill="#9eaca2">RESEARCH VIEW  /  ILLUSTRATIVE DATA</text>
+  <circle cx="751" cy="267" r="5" fill="#b5c687"/>
+  <text x="735" y="273" text-anchor="end" font-family="Georgia,serif" font-size="11" letter-spacing="1" fill="#becabc">MARKET WATCH</text>
+  <path d="M83 367H764M83 421H764M83 475H764M83 529H764" stroke="#6d8276" stroke-opacity=".3"/>
+  <path d="M136 340V552M242 340V552M348 340V552M454 340V552M560 340V552M666 340V552" stroke="#6d8276" stroke-opacity=".18"/>
+  <path d="M84 515C123 495 139 499 172 483S231 495 264 462 319 458 350 433 394 449 420 427 470 411 500 413 550 367 584 382 629 360 655 367 718 331 765 344V554H84Z" fill="url(#wash)"/>
+  <path d="M84 515C123 495 139 499 172 483S231 495 264 462 319 458 350 433 394 449 420 427 470 411 500 413 550 367 584 382 629 360 655 367 718 331 765 344" fill="none" stroke="url(#chart)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="765" cy="344" r="8" fill="#d3b471" stroke="#24332e" stroke-width="4"/>
+  <text x="83" y="592" font-family="Georgia,serif" font-size="13" letter-spacing="1.5" fill="#d9ded2">INDICES</text>
+  <text x="246" y="592" font-family="Georgia,serif" font-size="13" letter-spacing="1.5" fill="#d9ded2">SENTIMENT</text>
+  <text x="451" y="592" font-family="Georgia,serif" font-size="13" letter-spacing="1.5" fill="#d9ded2">RESEARCH SIGNALS</text>
+  <rect x="824" y="234" width="387" height="118" fill="#f8f5eb" stroke="#8f978a"/>
+  <rect x="824" y="234" width="6" height="118" fill="#587962"/>
+  <text x="851" y="269" font-family="Georgia,serif" font-size="13" font-weight="700" letter-spacing="1.8" fill="#507054">01 / PORTFOLIO</text>
+  <text x="851" y="303" font-family="Georgia,serif" font-size="26" fill="#26372d">Your holdings, in view.</text>
+  <text x="851" y="328" font-family="Georgia,serif" font-size="12" fill="#647267">Track manually entered positions</text>
+  <rect x="824" y="369" width="387" height="118" fill="#f8f5eb" stroke="#8f978a"/>
+  <rect x="824" y="369" width="6" height="118" fill="#b59a62"/>
+  <text x="851" y="404" font-family="Georgia,serif" font-size="13" font-weight="700" letter-spacing="1.8" fill="#8b713d">02 / PAPER ACCOUNT</text>
+  <text x="851" y="438" font-family="Georgia,serif" font-size="26" fill="#26372d">Practice the decision.</text>
+  <text x="851" y="463" font-family="Georgia,serif" font-size="12" fill="#647267">Virtual orders only  •  No broker link</text>
+  <rect x="824" y="504" width="387" height="122" fill="#f8f5eb" stroke="#8f978a"/>
+  <rect x="824" y="504" width="6" height="122" fill="#7c8c98"/>
+  <text x="851" y="539" font-family="Georgia,serif" font-size="13" font-weight="700" letter-spacing="1.8" fill="#5c7181">03 / RESEARCH</text>
+  <text x="851" y="573" font-family="Georgia,serif" font-size="26" fill="#26372d">Signals with context.</text>
+  <text x="851" y="598" font-family="Georgia,serif" font-size="12" fill="#647267">Experimental model  •  Not a forecast</text>
+  <text x="54" y="674" font-family="Georgia,serif" font-size="11" letter-spacing="1.5" fill="#5a655b">WEALTH SENSE  /  INDEPENDENT SOFTWARE PROJECT</text>
+  <text x="1210" y="674" text-anchor="end" font-family="Georgia,serif" font-size="11" letter-spacing="1.3" fill="#5a655b">ILLUSTRATIVE INTERFACE PREVIEW</text>
+</svg>
