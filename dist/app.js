@@ -15,6 +15,7 @@ projects.forEach((p, index) => {
   const copy=make('div','project-copy'); copy.append(make('p','project-number',`${String(index+1).padStart(2,'0')} / ${p.category.toUpperCase()}`),make('h3','',p.title),make('p','project-description',p.description));
   const tags=make('div','tags'); (p.stack||[]).forEach(item=>tags.append(make('span','',item))); copy.append(tags);
   const actions=make('div','project-actions'); const details=make('button','','Explore the project ↗'); details.type='button'; details.addEventListener('click',()=>openProject(p)); actions.append(details);
+  const live=external('Visit live site ↗',p.url); if(live) actions.append(live);
   const source=external('View source ↗',p.github); if(source) actions.append(source); copy.append(actions); visual.addEventListener('click',()=>openProject(p));
   article.append(visual,copy); document.querySelector('#projects').append(article);
 });

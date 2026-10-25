@@ -4,6 +4,8 @@ A painting-led portfolio for creative website work and software projects. The op
 
 Featured projects: [KernelGuard](https://github.com/flyingsaucer1/KernelGuard), [CareerPilot AI](https://github.com/flyingsaucer1/AI-Career-Assistant), and [WealthSense](https://github.com/flyingsaucer1/WealthSense).
 
+Live demos: [CareerPilot AI](https://career-pilot-preview.vercel.app/) and [WealthSense](https://wealthsense-bay.vercel.app/).
+
 ## Run locally
 
 Requires Node.js. No package installation or build step is needed.

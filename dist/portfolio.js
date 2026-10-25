@@ -15,13 +15,13 @@ window.PORTFOLIO = {
     work: 'Resume upload and analysis, explainable ATS comparisons, editable resume versions with PDF and Word exports, job application tracking, career analytics, and interview preparation. AI suggestions are reviewed before being applied. Commercial launch is still in progress.',
     role: 'I designed and built CareerPilot AI end to end, including the React workspace, authenticated APIs, resume workflows, stored application data, and integrations with configurable AI providers.',
     stack: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB'],
-    image: 'assets/careerpilot.png', imageAlt: 'CareerPilot AI landing page with resume workspace preview', imageNote: 'Actual CareerPilot landing page. The illustrated readiness panel is demonstration content.', github: 'https://github.com/flyingsaucer1/AI-Career-Assistant', url: ''
+    image: 'assets/careerpilot.png', imageAlt: 'CareerPilot AI landing page with resume workspace preview', imageNote: 'Actual CareerPilot landing page. The illustrated readiness panel is demonstration content.', github: 'https://github.com/flyingsaucer1/AI-Career-Assistant', url: 'https://career-pilot-preview.vercel.app/'
   }, {
     id: 'wealthsense', title: 'WealthSense', category: 'Market research · Paper trading', year: '2026',
     description: 'An editorial-style workspace for Indian markets, bringing global market pulse, experimental signals, portfolio tracking, and paper trading together.',
     work: 'WealthSense combines market quotes and news sentiment with manually tracked holdings, separate virtual trading accounts, and an opt-in daily paper bot. Its research signals are experimental, not validated forecasts. Trades are virtual and never sent to a broker.',
     role: 'I built the Flask application, portfolio and paper-trading flows, market data and sentiment features, and the machine-learning research pipeline.',
     stack: ['Python', 'Flask', 'SQLite', 'LightGBM', 'Chart.js'],
-    image: 'assets/wealthsense.svg', imageAlt: 'Illustrative WealthSense newspaper-style dashboard with market research, portfolio, and paper trading panels', imageNote: 'Illustrative interface preview based on WealthSense features; no live market data or performance claims.', github: 'https://github.com/flyingsaucer1/WealthSense', url: ''
+    image: 'assets/wealthsense.svg', imageAlt: 'Illustrative WealthSense newspaper-style dashboard with market research, portfolio, and paper trading panels', imageNote: 'Illustrative interface preview based on WealthSense features; no live market data or performance claims.', github: 'https://github.com/flyingsaucer1/WealthSense', url: 'https://wealthsense-bay.vercel.app/'
   }]
 };
