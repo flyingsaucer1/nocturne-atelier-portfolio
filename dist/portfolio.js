@@ -3,13 +3,13 @@ window.PORTFOLIO = {
   name: 'Nocturne Atelier', bio: '', github: 'https://github.com/flyingsaucer1',
   linkedin: '', email: 'arshp038@gmail.com',
   projects: [{
-    id: 'kernelguard', title: 'KernelGuard', category: 'Linux security dashboard', year: '2026',
-    description: 'A clearer way to review security activity: search Linux events, inspect alert evidence, and see users, sessions, and devices in one administrator dashboard.',
-    work: 'KernelGuard brings activity records and alerts into a Flask dashboard backed by MySQL. Its audit-parser work groups failed login attempts and access to protected files from Linux audit records. The public repository also includes a seeded demonstration dataset for exploring the interface.',
-    role: 'I built the Flask dashboard, database schema, searchable event views, alert and inventory pages, and the Linux audit parsing work. The public repository currently focuses on these dashboard and parser components.',
-    features: ['Search activity by event, process, or resource and open event details', 'Review alerts with severity, reason, status, and the related resource', 'Browse user, session, and device records alongside dashboard totals', 'Parse Linux audit records for failed logins and protected-file access'],
-    stack: ['Python', 'Flask', 'MySQL', 'Bootstrap', 'Linux auditd'],
-    image: 'assets/kernelguard.png', imageAlt: 'KernelGuard dashboard with synthetic demonstration data', imageNote: 'Actual dashboard, shown with synthetic demo data.', github: 'https://github.com/flyingsaucer1/KernelGuard', url: ''
+    id: 'kernelguard', title: 'KernelGuard', category: 'Linux host activity monitor', year: '2026',
+    description: 'A Linux host monitor that turns audit events and host inventory into explainable security alerts, with the evidence ready for administrator review.',
+    work: 'KernelGuard collects grouped Linux Audit events and snapshots of users, sessions, processes, and USB devices. It stores structured evidence in SQLite or MySQL, avoids duplicate imports, and evaluates five configurable policies. A local Flask dashboard brings event timelines, collector status, alert evidence, and device-enrollment history together. The included demo uses synthetic data; live collection needs a configured Linux lab.',
+    role: 'I built the Python CLI, Audit parser and collectors, relational data model, detection rules, administrator review flows, and Flask dashboard. The rules report policy matches for human investigation; they do not block activity or establish malicious intent.',
+    features: ['Parse Linux Audit file, process, and authentication events with replay protection', 'Detect repeated failed logins, after-hours and bulk protected-file access, selected privileged commands, and unapproved USB devices', 'Track users, sessions, processes, and USB enrollment decisions across inventory snapshots', 'Review alert evidence, policy details, collector status, and event timelines in a local dashboard', 'Run a repeatable synthetic demo or collect live Audit and inventory data on a configured Linux host'],
+    stack: ['Python', 'Flask', 'SQLAlchemy', 'SQLite / MySQL', 'Linux auditd', 'psutil / pyudev'],
+    image: 'assets/kernelguard.png', imageAlt: 'KernelGuard dashboard with synthetic demonstration data', imageNote: 'Actual KernelGuard dashboard, shown with synthetic demo data.', github: 'https://github.com/flyingsaucer1/KERNAL_GUARD', url: ''
   }, {
     id: 'careerpilot', title: 'CareerPilot AI', category: 'AI career workspace · In development', year: '2026',
     description: 'A job-search workspace that connects resume review, job-specific ATS comparisons, editable drafts, application tracking, and interview practice.',

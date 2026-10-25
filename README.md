@@ -2,7 +2,7 @@
 
 A painting-led portfolio for creative website work and software projects. The opening artwork responds to pointer movement with subtle water-like ripples; the site includes project details and a direct contact link.
 
-Featured projects: [KernelGuard](https://github.com/flyingsaucer1/KernelGuard), [CareerPilot AI](https://github.com/flyingsaucer1/AI-Career-Assistant), and [WealthSense](https://github.com/flyingsaucer1/WealthSense).
+Featured projects: [KernelGuard](https://github.com/flyingsaucer1/KERNAL_GUARD), [CareerPilot AI](https://github.com/flyingsaucer1/AI-Career-Assistant), and [WealthSense](https://github.com/flyingsaucer1/WealthSense).
 
 Live demos: [CareerPilot AI](https://career-pilot-preview.vercel.app/) and [WealthSense](https://wealthsense-bay.vercel.app/).
 
