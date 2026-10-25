@@ -24,9 +24,10 @@ function openProject(p){
   const img=document.querySelector('#dialog-image'); img.src=p.image; img.alt=p.imageAlt||`${p.title} project preview`;
   document.querySelector('.image-note').textContent=p.imageNote||'Actual project interface.';
   document.querySelector('#dialog-description').textContent=p.description; document.querySelector('#dialog-work').textContent=p.work; document.querySelector('#dialog-role').textContent=p.role;
+  const features=document.querySelector('#dialog-features'); features.replaceChildren(); (p.features||[]).forEach(item=>features.append(make('li','',item)));
   const tags=document.querySelector('#dialog-stack'); tags.replaceChildren(); (p.stack||[]).forEach(item=>tags.append(make('span','',item)));
   const links=document.querySelector('#dialog-links'); links.replaceChildren(); [['View source on GitHub ↗',p.github],['Visit live website ↗',p.url]].forEach(([label,url])=>{const link=external(label,url);if(link)links.append(link)});
-  document.body.classList.add('dialog-open'); dialog.showModal();
+  document.body.classList.add('dialog-open'); dialog.showModal(); dialog.scrollTop=0;
 }
 document.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('close',()=>document.body.classList.remove('dialog-open'));
